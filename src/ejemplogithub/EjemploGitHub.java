@@ -9,9 +9,12 @@ public class EjemploGitHub {
 
    
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null, "Hola Mundo");
-        System.out.println("Hola Mundo");
         
+        
+        for(int i  = 0; i<10;i++)
+        {
+           JOptionPane.showMessageDialog(null, "Hola Mundo");
+        }
     }
     
 }
